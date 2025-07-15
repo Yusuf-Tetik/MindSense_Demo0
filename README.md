@@ -55,39 +55,6 @@ MindSense, çocuklara yapay zeka destekli eğitim sunmayı hedefleyen modern bir
 - **Styling**: CSS3 (Custom CSS Variables)
 - **Typography**: Google Fonts (Nunito)
 
-## 🚀 Kurulum ve Çalıştırma
-
-### Gereksinimler
-- Node.js (v16 veya üzeri)
-- npm veya yarn
-
-### Adımlar
-
-1. **Projeyi klonlayın**
-   ```bash
-   git clone <repository-url>
-   cd mind-sense
-   ```
-
-2. **Bağımlılıkları yükleyin**
-   ```bash
-   npm install
-   ```
-
-3. **Geliştirme sunucusunu başlatın**
-   ```bash
-   npm run dev
-   ```
-
-4. **Uygulamayı açın**
-   - Tarayıcınızda `http://localhost:3000` adresine gidin
-
-### Demo Giriş Bilgileri
-```
-E-mail: demo@mindsense.com
-Şifre: demo123
-```
-
 ## 📁 Proje Yapısı
 
 ```
@@ -170,27 +137,12 @@ npm run lint
 - Gamification elementleri
 - Çoklu dil desteği
 
-## 🤝 Katkıda Bulunma
-
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
-
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
 
 ## 👥 Ekip
 
-- **UI/UX Designer**: Çocuk dostu arayüz tasarımı
-- **Frontend Developer**: React geliştirme
-- **Backend Developer**: API entegrasyonu (yakında)
-
-## 📞 İletişim
-
-Sorularınız için lütfen issue oluşturun veya bizimle iletişime geçin.
+- **UI/UX Designer**: Yusuf Tetik
+- **Frontend Developer**: Yusuf Tetik
+- **Backend Developer**: -
 
 ---
 
