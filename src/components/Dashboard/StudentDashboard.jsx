@@ -82,9 +82,10 @@ const StudentDashboard = () => {
   // Ders seçimi
   const handleLessonSelect = (lesson) => {
     console.log('Seçilen ders:', lesson)
-    // İleride ders sayfasına yönlendirme burada olacak
-    // navigate(`/lesson/${lesson.id}`)
-    alert(`🎯 ${lesson.name} dersine hoş geldin! Bu özellik yakında eklenecek.`)
+    // Ders sohbet sayfasına yönlendir - ders bilgisini state olarak gönder
+    navigate(`/lesson/${lesson.id}`, { 
+      state: { lesson } 
+    })
   }
 
   // Profil sayfasına git

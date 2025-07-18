@@ -3,6 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import Login from './components/Login/Login'
 import Register from './components/Register/Register'
 import StudentDashboard from './components/Dashboard/StudentDashboard'
+import LessonChat from './components/LessonChat/LessonChat'
 import './App.css'
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
           
           {/* Dashboard sayfası rotası */}
           <Route path="/dashboard" element={<StudentDashboard />} />
+          
+          {/* Ders sohbet sayfası rotası */}
+          <Route path="/lesson/:lessonId" element={<LessonChat />} />
           
           {/* Bulunamayan sayfalar için login'e yönlendir */}
           <Route path="*" element={<Navigate to="/login" replace />} />
